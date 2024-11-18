@@ -4,6 +4,7 @@ import { getGenresList } from '../api/apicalls';
 import { AntDesign } from '@expo/vector-icons';
 import { Colors } from '../../assets/theme';
 import { LinearGradient } from 'expo-linear-gradient';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 
 const TicketCard = (props) => {

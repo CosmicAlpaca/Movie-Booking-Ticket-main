@@ -10,6 +10,7 @@ import MovieDetailsScreen from './src/screens/MovieDetailsScreen';
 import SeatBookingScreen from './src/screens/SeatBookingScreen';
 import LoginNavigator from './src/navigators/LoginNavigator';
 import OrderScreen from './src/screens/OrderScreen';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const Stack = createNativeStackNavigator();
 

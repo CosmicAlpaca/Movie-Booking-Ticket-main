@@ -7,6 +7,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { BlurView } from 'expo-blur';
 import { getCurrNowShowingMoviesList } from '../data/data';
 import YoutubePlayer from "react-native-youtube-iframe";
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 import CastCard from '../components/CastCard';
 import CommentCard from '../components/CommentCard';

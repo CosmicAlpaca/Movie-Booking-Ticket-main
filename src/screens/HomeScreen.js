@@ -13,7 +13,8 @@ import PopularMovieCard from '../components/PopularMovieCard';
 import ComingSoonMovieCard from '../components/ComingSoonMovieCard';
 import MovieCard from '../components/MovieCard';
 
-// lamkhanhhoa@gmail.com
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
+
 const {width, height} = Dimensions.get('window');
 
 const HomeScreen = ({navigation}) => {

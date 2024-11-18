@@ -7,6 +7,7 @@ import { doc, setDoc } from 'firebase/firestore';
 import { AntDesign } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import React, { useState } from 'react'
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const {width, height} = Dimensions.get('window');
 

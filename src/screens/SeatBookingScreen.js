@@ -9,6 +9,7 @@ import { FIRESTORE_DB } from '../../firebaseConfig';
 import { doc, setDoc, getDoc, updateDoc, collection, addDoc } from 'firebase/firestore';
 import React, { useState } from 'react';
 import { getCurrUser, setCurrUser } from '../data/data';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const SeatBookingScreen = ({navigation, route}) => {
   const [seatDetails, setSeatDetails] = useState(null);

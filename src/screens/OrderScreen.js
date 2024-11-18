@@ -2,6 +2,7 @@ import { Dimensions, Image, StyleSheet, Text, View, TouchableOpacity } from 'rea
 import { AntDesign } from '@expo/vector-icons'
 import { Colors } from '../../assets/theme'
 import React from 'react'
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const {width, height} = Dimensions.get('window');
 

@@ -1,6 +1,7 @@
 import {Text, View, StyleSheet, TouchableOpacity, Image, ActivityIndicator} from 'react-native';
 import React, { useState } from 'react';
 import { getCurrGenresList } from '../data/data';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const ComingSoonMovieCard = (props) => {
   const [genreslList, setGenreslList] = useState(getCurrGenresList());

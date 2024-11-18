@@ -1,6 +1,7 @@
 import {Text, View, StyleSheet, TouchableOpacity, Image} from 'react-native';
 import React from 'react'
 import { Colors } from '../../assets/theme';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const PopularMovieCard = (props) => {
   if (props.isHorizontal)

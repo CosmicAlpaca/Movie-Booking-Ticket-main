@@ -3,6 +3,7 @@ import { Colors } from '../../assets/theme';
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { View, Text, TouchableOpacity, Image, TextInput, FlatList, StyleSheet } from 'react-native';
 import React, {useRef, useState} from 'react';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const SearchBar = (props) => {
   const insets = useSafeAreaInsets();

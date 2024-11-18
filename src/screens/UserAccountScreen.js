@@ -6,6 +6,7 @@ import { getCurrUser, setCurrUser } from '../data/data';
 import { FIRESTORE_DB, FIREBASE_STO } from '../../firebaseConfig';
 import { updateDoc, doc} from 'firebase/firestore';
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 import * as ImagePicker from "expo-image-picker";
 

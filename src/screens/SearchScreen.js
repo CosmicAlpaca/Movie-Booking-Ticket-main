@@ -6,6 +6,7 @@ import { MultipleSelectList } from 'react-native-dropdown-select-list';
 import PopularMovieCard from '../components/PopularMovieCard';
 import SearchBar from '../components/SearchBar';
 import { Colors } from '../../assets/theme';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const {width, height} = Dimensions.get('window');
 

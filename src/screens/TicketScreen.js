@@ -7,6 +7,7 @@ import TicketCard from '../components/TicketCard';
 import { collection, getDocs } from 'firebase/firestore';
 import { FIRESTORE_DB } from '../../firebaseConfig';
 import { useIsFocused } from '@react-navigation/native';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const { width, height } = Dimensions.get('window');
 

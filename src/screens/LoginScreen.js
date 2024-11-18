@@ -6,6 +6,7 @@ import { FIREBASE_AUTH, FIRESTORE_DB } from '../../firebaseConfig'
 import { Colors } from '../../assets/theme';
 import { setCurrUser } from '../data/data';
 import { useNavigation } from '@react-navigation/native';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const {width, height} = Dimensions.get('window');
 

@@ -3,6 +3,7 @@ import React from 'react';
 import { Colors } from '../../assets/theme';
 import { baseImagePath } from '../api/apicalls';
 import { AntDesign } from '@expo/vector-icons';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const CommentCard = (props) => {  
   return (

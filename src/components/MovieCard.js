@@ -3,6 +3,7 @@ import { TouchableWithoutFeedback, Text, View, StyleSheet, TouchableOpacity, Ima
 import { getGenresList } from '../api/apicalls';
 import { AntDesign } from '@expo/vector-icons';
 import { Colors } from '../../assets/theme';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const MovieCard = (props) => {
   const renderGenres = (genreIDs) => {

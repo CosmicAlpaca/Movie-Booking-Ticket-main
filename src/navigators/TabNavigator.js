@@ -9,6 +9,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import { Colors } from '../../assets/theme';
 import { createContext } from 'react';
 import { getCurrUser } from '../data/data';
+import { ViewPropTypes, TextPropTypes, ImagePropTypes } from 'deprecated-react-native-prop-types';
 
 const Tab = createBottomTabNavigator();
 export const userContext = createContext();
